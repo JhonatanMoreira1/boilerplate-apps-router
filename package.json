@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint-staged": "lint-staged --config .lintstagedrc.js"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.14",
@@ -34,13 +35,7 @@
     "prettier": "3.5.3",
     "tailwindcss": "^4.0.14",
     "typescript": "^5"
-  },
-"lint-staged": {
-  "*.{js,jsx,ts,tsx}": [
-    "prettier --write",
-    "next lint --fix . ${filenames.join(' ')}"
-  ]
-}
+  }
 
 
 }
