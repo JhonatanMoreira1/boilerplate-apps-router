@@ -35,10 +35,11 @@
     "tailwindcss": "^4.0.14",
     "typescript": "^5"
   },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "prettier --write",
-      "npm run lint --fix ."
-    ]
-  }
+ "lint-staged": {
+  "*.{js,jsx,ts,tsx}": [
+    "prettier --write ${filenames.join(' ')}",
+    "next lint --fix . ${filenames.join(' --file')}"
+  ]
+}
+
 }
