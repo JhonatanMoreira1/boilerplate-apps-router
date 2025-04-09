@@ -1,0 +1,5 @@
+# Ignorar arquivos e pastas específicas
+!.storybook
+!.jest
+generators
+src/types/jest-styled-components.d.ts
