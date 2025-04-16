@@ -1,8 +1,35 @@
-
 ![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
+> ⚠️ **This is an updated version of the original 2023 boilerplate** from the [React Avançado](https://reactavancado.com.br/) course. 
+> Several breaking changes and deprecated packages have been resolved to support the modern ecosystem (Next.js 15, React 19, Storybook 8+).
+
+---
+
+## 🆕 Key Updates
+
+### ✅ Dependencies (Before → After)
+
+- `next`: `12.0.10` → `15.2.3`
+- `react`: `17.0.2` → `^19.1.0`
+- `react-dom`: `17.0.2` → `^19.1.0`
+- `styled-components`: `5.3.3` → `^6.1.17`
+- `babel-jest`: added `29.7.0`
+
+### ✅ Dev Dependencies
+
+- Upgraded Storybook: `6.4.x` → `^8.6.12`
+- Updated Jest, Testing Library, ESLint, TypeScript to latest stable versions
+- Replaced legacy Storybook builders with `@storybook/nextjs`
+- Updated React and TypeScript typings: now supports React 19 and TypeScript 5+
+
+### ✅ Node Version
+
+- `16.19.0` → `18.20.7`
+
+---
+
 ![ci](https://github.com/React-Avancado/boilerplate-apps-router/workflows/ci/badge.svg)
+
 ## What is inside?
 
 This project uses lot of stuff as:
@@ -56,3 +83,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
